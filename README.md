@@ -13,7 +13,7 @@ Python script to check/do:\
 - extract from EOL the common name, and short overview of the species, species URL in EOL\
 - calculate number of loci for varver and macropopgen data\
 - create easy taxonomy (14 categories) based on EOL taxonomy\
-- get BIOM from WWF database
+- get BIOME from WWF database
 
 **GenDivRange_fishing.py:**\
 Author: Haonan Yang\
