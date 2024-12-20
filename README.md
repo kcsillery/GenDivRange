@@ -29,5 +29,4 @@ Author: Tin Hang Hung\
 Series of Python scripts to extract, clean, integrate data from the VarVer database.
 
 **doi_search.py:**\
-Author: ??\
-Python script to extract the DOI of published studies.
+Python script to reverse look up the DOI of published studies from VarVer with the CrossRef title with a minimum Levenshtein ratio match of 0.9 using unibiAPC (\url{doi.org/10.4119/UNIBI/UB.2014.18}).
