@@ -18,10 +18,6 @@ Pyhon script to extract data from www.fishbase.de
 Author: Tin Hang Hung\
 Series of Python scripts to extract, clean, integrate data from the VarVer database.
 
-**doi_search.py:**\
-Author: GenDivRange
-Python script to reverse look up the DOI of published studies from VarVer with the CrossRef title with a minimum Levenshtein ratio match of 0.9 using unibiAPC (\url{doi.org/10.4119/UNIBI/UB.2014.18}).
-
 **GenDivRange_GBIFcoordinatecleaner.R**\
 Authors: Michael Noblis, Priscila Rodrigez and Yohann Chauvier\
 Cleaning and filtering the GBIF observations using a customized version of the CoordinateCleaner package.
