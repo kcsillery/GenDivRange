@@ -4,10 +4,10 @@ This repository contains scripts that were used to extract, clean and filter dat
 
 **GenDivRange_coords_EOL_BIOME.ipynb:**\
 Author: Haonan Yang\
-Python script to check/do:\
-- add the country name to Geog_1\
-- extract from EOL the common name, and short overview of the species, species URL in EOL\
-- create easy taxonomy (14 categories) based on EOL taxonomy\
+Python script to check/do:
+- add the country name to Geog_1
+- extract from EOL the common name, and short overview of the species, species URL in EOL
+- create easy taxonomy (14 categories) based on EOL taxonomy
 - get BIOME from WWF database
 
 **GenDivRange_fishing.py:**\
