@@ -1,23 +1,69 @@
-GenDivRange is a database for open access geo-referenced genetic diversity data. Visit www.gendivrange.org for further information.
+# 🌍 GenDivRange
 
-This repository contains scripts that were used to extract, clean and filter data for creating the database.
+**GenDivRange** is an open-access database of geo-referenced genetic diversity data.
 
-**GenDivRange_coords_EOL_BIOME.ipynb:**\
-Author: Haonan Yang\
-Python script to check/do:
-- add the country name to Geog_1
-- extract from EOL the common name, and short overview of the species, species URL in EOL
-- create easy taxonomy (14 categories) based on EOL taxonomy
-- get BIOME from WWF database
+🔗 Visit **www.gendivrange.org** for more information about the database and its applications.
 
-**GenDivRange_fishing.py:**\
-Author: Haonan Yang\
-Pyhon script to extract data from www.fishbase.de
+---
 
-**varver_*:**\
-Author: Tin Hang Hung\
-Series of Python scripts to extract, clean, integrate data from the VarVer database.
+## 📦 Repository Overview
 
-**GenDivRange_GBIFcoordinatecleaner.R**\
-Authors: Michael Noblis, Priscila Rodrigez and Yohann Chauvier\
-Cleaning and filtering the GBIF observations using a customized version of the CoordinateCleaner package.
+This repository contains scripts used to **extract, clean, and filter data** for building the GenDivRange database.
+
+---
+
+## 📁 Scripts
+
+### `GenDivRange_coords_EOL_BIOME.ipynb`
+**Author:** Haonan Yang  
+
+Jupyter Notebook used to process and enrich species occurrence data. Main tasks include:
+
+- Adding country names to the `Geog_1` field
+- Extracting from **EOL (Encyclopedia of Life)**:
+  - Common names  
+  - Short species overviews  
+  - Species URLs
+- Creating a simplified taxonomy (14 categories) based on EOL taxonomy
+- Assigning **biomes** using the WWF biome database
+
+---
+
+### `GenDivRange_fishing.py`
+**Author:** Haonan Yang  
+
+Python script for extracting species-related data from **FishBase**  
+🔗 www.fishbase.de
+
+---
+
+### `varver_*`
+**Author:** Tin Hang Hung  
+
+Series of Python scripts to:
+
+- Extract data from the **VarVer** database
+- Clean and harmonize datasets
+- Integrate VarVer data into the GenDivRange workflow
+
+---
+
+### `GenDivRange_GBIFcoordinatecleaner.R`
+**Authors:** Michael Noblis, Priscila Rodriguez, and Yohann Chauvier  
+
+R script for cleaning and filtering **GBIF** occurrence records using a customized version of the **CoordinateCleaner** package.
+
+---
+
+## 🛠️ Requirements
+
+- Python (for `.py` scripts and Jupyter notebooks)
+- R (for GBIF coordinate cleaning)
+- Access to external databases (EOL, FishBase, VarVer, WWF biomes, GBIF)
+
+---
+
+## 📌 Notes
+
+- Scripts are provided for transparency and reproducibility.
+- Some external data sources may require internet access or specific usage permissions.
